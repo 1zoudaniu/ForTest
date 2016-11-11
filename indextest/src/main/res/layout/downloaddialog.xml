@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/pb_update"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/progress_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/small_margin_or_padding"
+        android:background="@color/calx" />
+
+    <Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_selector_setconfig"
+        android:padding="@dimen/normal_margin_or_padding"
+        android:text="取消"
+        android:textSize="@dimen/normal_textsize" />
+
+</LinearLayout>
